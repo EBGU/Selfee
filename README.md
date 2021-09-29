@@ -1,10 +1,10 @@
-# Seed
+# Selfee
 
-Self-supervised Extracting Discriminative features for animal behavior analysis
+Self-supervised Features Extraction for animal behavior discrimination 
 
-This is the offical implementation of Seed.
+This is the offical implementation of Selfee.
 
-Seed is inspired by and modified from SimSiam and CLD:
+Selee is inspired by and modified from SimSiam and CLD:
 
 https://github.com/facebookresearch/simsiam
 
