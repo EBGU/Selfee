@@ -18,4 +18,10 @@ https://github.com/frank-xwang/CLD-UnsupervisedLearning
 
 ## Package availability 
 
-Currently, we only provide unpolished code for the reproduction of our experiments. After publication, python package would be available. Thank you for your patience.
+Currently, we only provide unpolished code for the reproduction of our experiments. After publication, a python package would be available.
+
+## Data Preprocessing
+
+For data preprocessing, I recommend you to use the RodentTracker. It also provides other functions, such as animal tracking.
+
+https://github.com/EBGU/RodentTracker
