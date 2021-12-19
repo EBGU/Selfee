@@ -8,13 +8,18 @@ Fast and accurately characterizing animal behaviors is crucial for neuroscience 
 
 ## Network structure
 
-Selee is inspired by and modified from SimSiam and CLD:
+Selee is inspired by and modified from [SimSiam](https://github.com/facebookresearch/simsiam) and [CLD](https://github.com/frank-xwang/CLD-UnsupervisedLearning):
 
-https://github.com/facebookresearch/simsiam
 
-https://github.com/frank-xwang/CLD-UnsupervisedLearning
+
+
 
 ![net](./img/network.jpg)
+
+## Pretrained weight
+
+We provide [pretrained weights](https://drive.google.com/file/d/1A3U5guNEKA3Bi9H3QnfstZDEZ6aesqcR/view?usp=sharing) on flies or mice datasets via Google Drive.
+
 
 ## Package availability 
 
@@ -22,6 +27,6 @@ Currently, we only provide unpolished code for the reproduction of our experimen
 
 ## Data Preprocessing
 
-For data preprocessing, I recommend you to use the RodentTracker. It also provides other functions, such as animal tracking.
+For data preprocessing, I recommend you to use my [RodentTracker](https://github.com/EBGU/RodentTracker). It also provides other functions, such as animal tracking.
 
-https://github.com/EBGU/RodentTracker
+
