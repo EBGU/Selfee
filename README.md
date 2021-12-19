@@ -3,7 +3,7 @@
 This is the official implementation of Selfee. In brief, Selfee is a **fully unsupervised** neural network for animal behavior analysis. **It is fast, sensitive, and unbiased.**
 
 <div align=center>
-<img src=./img/selfee.jpg width=62%/>
+<img src=./img/selfee.jpg width=40%/>
 </div>
 
 
