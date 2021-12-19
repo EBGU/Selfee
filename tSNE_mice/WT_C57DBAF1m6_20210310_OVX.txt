@@ -1,0 +1,74 @@
+ 7191     4:47.64    social_interest    either    start
+ 7235     4:49.40    social_interest    either    stop
+ 7361     4:54.44    social_interest    either    start
+ 7370     4:54.80    social_interest    either    stop
+ 7381     4:55.24    social_interest    either    start
+ 7510     5:00.40    social_interest    either    stop
+ 7559     5:02.36    social_interest    either    start
+ 7637     5:05.48    social_interest    either    stop
+ 7677     5:07.08    social_interest    either    start
+ 7715     5:08.60    social_interest    either    stop
+ 7735     5:09.40    social_interest    either    start
+ 7779     5:11.16    social_interest    either    stop
+ 7801     5:12.04    social_interest    either    start
+ 7850     5:14.00    social_interest    either    stop
+ 7882     5:15.28    social_interest    either    start
+ 8036     5:21.44    social_interest    either    stop
+ 8105     5:24.20    social_interest    either    start
+ 8165     5:26.60    social_interest    either    stop
+ 8219     5:28.76    social_interest    either    start
+ 8374     5:34.96    social_interest    either    stop
+ 8438     5:37.52    social_interest    either    start
+ 8693     5:47.72    social_interest    either    stop
+ 8715     5:48.60    social_interest    either    start
+ 9518     6:20.72    social_interest    either    stop
+ 9544     6:21.76    social_interest    either    start
+ 9600     6:24.00    social_interest    either    stop
+ 9655     6:26.20    social_interest    either    start
+10180     6:47.20    social_interest    either    stop
+10327     6:53.08    social_interest    either    start
+10342     6:53.68    social_interest    either    stop
+10449     6:57.96    social_interest    either    start
+10464     6:58.56    social_interest    either    stop
+10684     7:07.36    social_interest    either    start
+10847     7:13.88    social_interest    either    stop
+10874     7:14.96    social_interest    either    start
+10909     7:16.36    social_interest    either    stop
+10909     7:16.36    mount              either    start
+11088     7:23.52    mount              either    stop
+11131     7:25.24    social_interest    either    start
+11229     7:29.16    social_interest    either    stop
+11375     7:35.00    social_interest    either    start
+11390     7:35.60    social_interest    either    stop
+11514     7:40.56    mount              either    start
+11540     7:41.60    mount              either    stop
+11540     7:41.60    social_interest    either    start
+11597     7:43.88    social_interest    either    stop
+11772     7:50.88    social_interest    either    start
+11786     7:51.44    social_interest    either    stop
+11907     7:56.28    mount              either    start
+11943     7:57.72    mount              either    stop
+11943     7:57.72    intromission       either    start
+12085     8:03.40    intromission       either    stop
+12312     8:12.48    mount              either    start
+12336     8:13.44    mount              either    stop
+12336     8:13.44    intromission       either    start
+13506     9:00.24    intromission       either    stop
+14224     9:28.96    social_interest    either    start
+14265     9:30.60    social_interest    either    stop
+14534     9:41.36    social_interest    either    start
+14567     9:42.68    social_interest    either    stop
+14888     9:55.52    social_interest    either    start
+14918     9:56.72    social_interest    either    stop
+14918     9:56.72    mount              either    start
+14981     9:59.24    mount              either    stop
+14981     9:59.24    intromission       either    start
+15203    10:08.12    intromission       either    stop
+15620    10:24.80    social_interest    either    start
+15640    10:25.60    social_interest    either    stop
+15960    10:38.40    mount              either    start
+16008    10:40.32    mount              either    stop
+16008    10:40.32    intromission       either    start
+17044    11:21.76    intromission       either    stop
+17044    11:21.76    ejaculation        either    start
+17350    11:33.96    ejaculation        either    stop

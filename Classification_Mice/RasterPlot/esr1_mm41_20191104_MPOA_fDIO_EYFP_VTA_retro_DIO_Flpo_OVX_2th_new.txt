@@ -1,0 +1,96 @@
+ 2349     1:33.96    social_interest    either    start
+ 2358     1:34.32    social_interest    either    stop
+ 2371     1:34.84    social_interest    either    start
+ 2452     1:38.08    social_interest    either    stop
+ 2508     1:40.32    social_interest    either    start
+ 2522     1:40.88    social_interest    either    stop
+ 2551     1:42.04    social_interest    either    start
+ 2580     1:43.20    social_interest    either    stop
+ 2625     1:45.00    social_interest    either    start
+ 2720     1:48.80    social_interest    either    stop
+ 2730     1:49.20    social_interest    either    start
+ 2771     1:50.84    social_interest    either    stop
+ 2822     1:52.88    social_interest    either    start
+ 3317     2:12.68    social_interest    either    stop
+ 3336     2:13.44    social_interest    either    start
+ 3386     2:15.44    social_interest    either    stop
+ 3416     2:16.64    social_interest    either    start
+ 3653     2:26.12    social_interest    either    stop
+ 3671     2:26.84    social_interest    either    start
+ 3721     2:28.84    social_interest    either    stop
+ 3721     2:28.84    mount              either    start
+ 3848     2:33.92    mount              either    stop
+ 3848     2:33.92    intromission       either    start
+ 3904     2:36.16    intromission       either    stop
+ 4119     2:44.76    social_interest    either    start
+ 4155     2:46.20    social_interest    either    stop
+ 4155     2:46.20    mount              either    start
+ 4176     2:47.04    mount              either    stop
+ 4251     2:50.04    social_interest    either    start
+ 4294     2:51.76    social_interest    either    stop
+ 4294     2:51.76    mount              either    start
+ 4341     2:53.64    mount              either    stop
+ 4341     2:53.64    intromission       either    start
+ 4469     2:58.76    intromission       either    stop
+ 4633     3:05.32    social_interest    either    start
+ 4667     3:06.68    social_interest    either    stop
+ 4667     3:06.68    mount              either    start
+ 4688     3:07.52    mount              either    stop
+ 4688     3:07.52    intromission       either    start
+ 4767     3:10.68    intromission       either    stop
+ 5227     3:29.08    mount              either    start
+ 5265     3:30.60    mount              either    stop
+ 5265     3:30.60    intromission       either    start
+ 5546     3:41.84    intromission       either    stop
+ 5809     3:52.36    mount              either    start
+ 5880     3:55.20    mount              either    stop
+ 6067     4:02.68    mount              either    start
+ 6142     4:05.68    mount              either    stop
+ 6142     4:05.68    intromission       either    start
+ 6346     4:13.84    intromission       either    stop
+ 6771     4:30.84    mount              either    start
+ 6786     4:31.44    mount              either    stop
+ 6786     4:31.44    intromission       either    start
+ 7021     4:40.84    intromission       either    stop
+ 7346     4:53.84    mount              either    start
+ 7451     4:58.04    mount              either    stop
+ 7788     5:11.52    mount              either    start
+ 7801     5:12.04    mount              either    stop
+ 7801     5:12.04    intromission       either    start
+ 8457     5:38.28    intromission       either    stop
+ 9336     6:13.44    mount              either    start
+ 9362     6:14.48    mount              either    stop
+ 9362     6:14.48    intromission       either    start
+ 9714     6:28.56    intromission       either    stop
+10198     6:47.92    mount              either    start
+10225     6:49.00    mount              either    stop
+10225     6:49.00    intromission       either    start
+10288     6:51.52    intromission       either    stop
+10560     7:02.40    social_interest    either    start
+10648     7:05.92    social_interest    either    stop
+10648     7:05.92    mount              either    start
+10719     7:08.76    mount              either    stop
+10781     7:11.24    mount              either    start
+10840     7:13.60    mount              either    stop
+11066     7:22.64    social_interest    either    start
+11110     7:24.40    social_interest    either    stop
+11143     7:25.72    social_interest    either    start
+11231     7:29.24    social_interest    either    stop
+11231     7:29.24    mount              either    start
+11247     7:29.88    mount              either    stop
+11247     7:29.88    intromission       either    start
+11402     7:36.08    intromission       either    stop
+11983     7:59.32    mount              either    start
+11992     7:59.68    mount              either    stop
+11992     7:59.68    intromission       either    start
+12197     8:07.88    intromission       either    stop
+12874     8:34.96    mount              either    start
+12887     8:35.48    mount              either    stop
+12887     8:35.48    intromission       either    start
+13248     8:49.92    intromission       either    stop
+13704     9:08.16    mount              either    start
+13729     9:09.16    mount              either    stop
+13729     9:09.16    intromission       either    start
+13979     9:19.16    intromission       either    stop
+13979     9:19.16    ejaculation        either    start
+14815     9:52.60    ejaculation        either    stop

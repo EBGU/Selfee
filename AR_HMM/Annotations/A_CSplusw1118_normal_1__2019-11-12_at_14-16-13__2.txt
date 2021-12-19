@@ -1,0 +1,17 @@
+#0 nothing      (1 oriantation        2 chasing      3 winging) do not distinguish 1 2 3 for speed all marked 3       4 pre-copulation        5 copulation       6 abnormal   
+0 50 0
+51 144 3
+145 163 0
+164 357 3
+358 369 4
+370 416 3
+417 455 0
+456 539 3
+540 581 0
+582 923 3
+924 989 0
+990 1494 3
+1495 1551 0
+1552 1730 3
+1731 1743 4
+1744 10000 5
