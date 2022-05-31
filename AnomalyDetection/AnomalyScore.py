@@ -1,6 +1,5 @@
 import numpy as np
 from multiprocessing import Pool
-from harmony import harmonize
 import torch
 from pytorch_metric_learning.distances import CosineSimilarity
 import matplotlib.pyplot as plt
