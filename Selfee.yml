@@ -1,0 +1,23 @@
+name: Selfee
+dependencies:
+  - python=3.8.8
+  - numpy=1.19.2
+  - matplotlib=3.4.1
+  - conda-forge::av=8.0.3
+  - scipy=1.6.2
+  - conda-forge::cudatoolkit=11.1.1
+  - pytorch::pytorch=1.8.1
+  - pytorch::torchvision=0.9.1  
+  - pillow=8.2.0
+  - scikit-learn=0.24.2
+  - pandas=1.2.4
+  - conda-forge::lightgbm=3.2.1
+  - pip:
+    - opencv-python==4.5.3.56
+    - psutil==5.8.0
+    - pytorch-metric-learning==0.9.99
+    - pyhsmm==0.1.6
+    - autoregressive==0.1.2 
+    - dtw-python==1.1.10
+#sleap=1.2.2
+#deeplabcut=2.2.0.2  
