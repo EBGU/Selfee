@@ -69,7 +69,7 @@ base_lr=0.05 #per batchsize256
 videoSets = '' #fill with the dir name of your dataset
 modelName = FrameWork+'_ResNet50_maxLambda'+str(maxLambda)+temporal+str(p_RGB_3F)+Ishuffle+videoSets+"_"
 
-ValidDir = videoSets+'/Valid_Set'
+ValidDir = videoSets+'/For_Emb'
 TrainDir = videoSets+'/Train_Set'
 TestDir = videoSets+'/Test_Set'
 
@@ -77,7 +77,7 @@ SavedDir=home+"/Saved_Models/"+FrameWork+"_CLD_ResNet50_initial_FlyCourtship.pkl
 CheckpointDir=home+"/Saved_Models/"+modelName
 log=home+"/Saved_Models/"+modelName
 embeddingName="/embedded_by_"+modelName+"steps"
-ValidEmbedDir = home+"/embed"
+ValidEmbedDir = home+"/Embed"
 
 f = open(log+"train.log",'a')
 localtime = time.asctime( time.localtime(time.time()) )
