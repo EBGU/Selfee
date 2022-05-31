@@ -67,11 +67,28 @@ You should arrange your training folder as:
 
 - Selfee
   - Saved_Models
+    - SimSiam_CLD_ResNet50_initial_FlyCourtship.pkl
+  - Embed
   - train_selfee.py
 - Datasets
   - Train_Set
   - Test_Set
-  - for_emb
- 
+  - For_Emb
+
+You could slightly modify this scipt from line 25 to line 75:
+```
+home = os.path.dirname(__file__) # you can change it to your address if training scriot is not under this folder
+initializing = False # if initializing, save a .pkl files and train from sketch, else read saved .pkl files
+AMP= True # automated mixed precision training
+CLD = True # use cld loss
+maxLambda = 2.0 # weight of CLD loss
+increaseLambda = False # True is NOT recommanded
+BYOL = False # True is NOT recommanded
+RGB_3F = True # use live frames when True, otherwise raw frames
+innerShuffle = True # This sample minibatches from the same video. only use this for data with dramatica batch effect, like mice data.
+input_size = [256,192] #image_size,for flies, use 224,224 
+base_lr=0.05 # per batchsize256, you can try 0.025
+videoSets = '' #fill with the dir name of your dataset
+```
 ## Abstract
 Fast and accurately characterizing animal behaviors is crucial for neuroscience research. Deep learning models are efficiently used in laboratories for behavior analysis. However, it has not been achieved to use a fully unsupervised method to extract comprehensive and discriminative features directly from raw behavior video frames for annotation and analysis purposes. Here, we report a self-supervised feature extraction (Selfee) convolutional neural network with multiple downstream applications to process video frames of animal behavior in an end-to-end way. Visualization and classification of the extracted features (Meta-representations) validate that Selfee processes animal behaviors in a comparable way of human understanding. We demonstrate that Meta-representations can be efficiently used to detect anomalous behaviors that are indiscernible to human observation and hint in-depth analysis. Furthermore, time-series analyses of Meta-representations reveal the temporal dynamics of animal behaviors. In conclusion, we present a self-supervised learning approach to extract comprehensive and discriminative features directly from raw video recordings of animal behaviors and demonstrate its potential usage for various downstream applications.
