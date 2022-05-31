@@ -1,11 +1,7 @@
 import numpy as np
-import umap
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 from sklearn import manifold
-from sklearn.cluster import KMeans
-from sklearn.cluster import SpectralClustering
-from sklearn.cluster import AgglomerativeClustering
 from matplotlib.colors import ListedColormap
 from multiprocessing import Pool
 import cv2
