@@ -35,9 +35,28 @@ For data preprocessing, I recommend you to use my [RodentTracker](https://github
 First, you should arange your data as:
 
 - Experiment_Name
-  - Videos
+  - Video
     - video1.mp4
     - video2.mp4
 
+Then, edit the template for data preprocessing.
+```
+home = 'yourFolder' #address of folder "Experiment_Name"
+isEPM = False # whether EPM or OFT, always use OFT style for all none EPM setups
+startT = 60 # start at 60s of each video, depends on what you need
+cropLen = 300 # crop only 300s(5min) for each video, depends on what you need
+imgSize = 500 # resize images as 500x500, depends on what you need
+margin = 0.2 # keep a margin of 20% image size beyond your selection
+useEllipse = False  # whether used ellipise to fit animals, ellipise fitting provides oritation information, but it is less robust
+refLenth = 100 # the arm lenth of EPM or size of OFT
+centerCutOff = 0.5 # define the center zone, for OFT only!
+video2img = True # extract images from video
+img2binary = True # substraction of background and normalize illunimation
+useAverFrame = True # use averaged frames as background, otherwise use first several frames
+tracking = False # perform animal tracking
+preview = False # visulize tracking result 
+windowSize = 5 #window size for speed
+Filter = 'aver' #a function to filter the positon, currently provide 'aver' 'median' 'none'
+```
 ## Abstract
 Fast and accurately characterizing animal behaviors is crucial for neuroscience research. Deep learning models are efficiently used in laboratories for behavior analysis. However, it has not been achieved to use a fully unsupervised method to extract comprehensive and discriminative features directly from raw behavior video frames for annotation and analysis purposes. Here, we report a self-supervised feature extraction (Selfee) convolutional neural network with multiple downstream applications to process video frames of animal behavior in an end-to-end way. Visualization and classification of the extracted features (Meta-representations) validate that Selfee processes animal behaviors in a comparable way of human understanding. We demonstrate that Meta-representations can be efficiently used to detect anomalous behaviors that are indiscernible to human observation and hint in-depth analysis. Furthermore, time-series analyses of Meta-representations reveal the temporal dynamics of animal behaviors. In conclusion, we present a self-supervised learning approach to extract comprehensive and discriminative features directly from raw video recordings of animal behaviors and demonstrate its potential usage for various downstream applications.
