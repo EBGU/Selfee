@@ -58,5 +58,20 @@ preview = False # visulize tracking result
 windowSize = 5 #window size for speed
 Filter = 'aver' #a function to filter the positon, currently provide 'aver' 'median' 'none'
 ```
+
+4. Train Selfee
+
+Training process takes 20,000 steps as default, and it usually takes about 8 hours on one nvidia 3090 GPU. Self-supervised learning is very sensitive to batch size, so 24GB GPU memory should be the minimal requirment. Otherwise, you have to implement [checkpoint tricks](https://github.com/prigoyal/pytorch_memonger/blob/master/tutorial/Checkpointing_for_PyTorch_models.ipynb) yourselves. 
+
+You should arrange your training folder as:
+
+- Selfee
+  - Saved_Models
+  - train_selfee.py
+- Datasets
+  - Train_Set
+  - Test_Set
+  - for_emb
+ 
 ## Abstract
 Fast and accurately characterizing animal behaviors is crucial for neuroscience research. Deep learning models are efficiently used in laboratories for behavior analysis. However, it has not been achieved to use a fully unsupervised method to extract comprehensive and discriminative features directly from raw behavior video frames for annotation and analysis purposes. Here, we report a self-supervised feature extraction (Selfee) convolutional neural network with multiple downstream applications to process video frames of animal behavior in an end-to-end way. Visualization and classification of the extracted features (Meta-representations) validate that Selfee processes animal behaviors in a comparable way of human understanding. We demonstrate that Meta-representations can be efficiently used to detect anomalous behaviors that are indiscernible to human observation and hint in-depth analysis. Furthermore, time-series analyses of Meta-representations reveal the temporal dynamics of animal behaviors. In conclusion, we present a self-supervised learning approach to extract comprehensive and discriminative features directly from raw video recordings of animal behaviors and demonstrate its potential usage for various downstream applications.
