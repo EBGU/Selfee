@@ -22,12 +22,12 @@ import cv2
 ###########################
 ###set initial prameters###
 ###########################
+home = os.path.dirname(__file__)
 initializing = False # if initializing, save a .pkl files, else read saved .pkl files
 AMP= True 
 CLD = True # use cld loss
 maxLambda = 2.0
 increaseLambda = False
-
 
 BYOL = False
 if BYOL:
@@ -69,16 +69,15 @@ base_lr=0.05 #per batchsize256
 videoSets = '' #fill with the dir name of your dataset
 modelName = FrameWork+'_ResNet50_maxLambda'+str(maxLambda)+temporal+str(p_RGB_3F)+Ishuffle+videoSets+"_"
 
-# change '/run/media/harold/Data_Storage/' to where your data are stored
-ValidDir = '/run/media/harold/Data_Storage/'+videoSets+'/Valid_Set'
-TrainDir = '/run/media/harold/Data_Storage/'+videoSets+'/Train_Set'
-TestDir = '/run/media/harold/Data_Storage/'+videoSets+'/Test_Set'
+ValidDir = videoSets+'/Valid_Set'
+TrainDir = videoSets+'/Train_Set'
+TestDir = videoSets+'/Test_Set'
 
-SavedDir=os.path.dirname(__file__)+"/Saved_Models/"+FrameWork+"_CLD_ResNet50_initial_FlyCourtship.pkl"
-CheckpointDir=os.path.dirname(__file__)+"/Saved_Models/"+modelName
-log=os.path.dirname(__file__)+"/Saved_Models/"+modelName
+SavedDir=home+"/Saved_Models/"+FrameWork+"_CLD_ResNet50_initial_FlyCourtship.pkl"
+CheckpointDir=home+"/Saved_Models/"+modelName
+log=home+"/Saved_Models/"+modelName
 embeddingName="/embedded_by_"+modelName+"steps"
-ValidEmbedDir = os.path.dirname(__file__)+"/ValidEmbed"
+ValidEmbedDir = home+"/embed"
 
 f = open(log+"train.log",'a')
 localtime = time.asctime( time.localtime(time.time()) )
