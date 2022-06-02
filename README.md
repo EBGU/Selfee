@@ -14,7 +14,7 @@ Selee is inspired by and modified from [SimSiam](https://github.com/facebookrese
 
 
 
-![net](./img/network.jpg)
+![net](./img/network1.jpg)
 
 ## A tutorial of Selfee
 
