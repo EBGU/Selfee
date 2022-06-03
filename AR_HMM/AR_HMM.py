@@ -22,8 +22,8 @@ lalamove = np.vectorize(lambda x: '/'+os.path.join(*(current_path+x.split('/')[-
 
 
 
-trainID = 'w1118'
-inferID = 'Ir76b'
+trainID = 'Ctrl'
+inferID = 'Exp'
 home = os.path.dirname(__file__)+'/'
 TrainDir = home+trainID
 InferDir = home+inferID
@@ -34,7 +34,7 @@ pcaMatrix = '/pcaWTMat.pkl'
 
 #set for HDP prior, the last four don't matter
 epochs = 1000
-Nmax = 40 #modes for HMM
+Nmax = 5 #modes for HMM
 kappa = 1e7
 modelName = '/ARHMM_'+trainID+inferID+'_epochs'+str(epochs)+'_Nmax'+str(Nmax)+'_kappa'+str(kappa)+'.pkl'
 alpha_a_0=1
