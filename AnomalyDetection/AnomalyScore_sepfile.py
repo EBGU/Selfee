@@ -11,10 +11,10 @@ import cv2
 from scipy import stats
 import os
 #torch.multiprocessing.set_start_method('spawn')
-home = "/home/harold/Documents/Harold_D206PC_Data/ZW_Lab/Selfee_figures/AnomalyDetection_New/"
-ref_npy ='Ctrl_ref'# "ppk23"
-query_npy ='CIS' # "Trh"
-neg_control ='Ctrl_neg'# "CS"
+home = " "#put your folder for anomaly detection here
+ref_npy ='Ctrl_ref'
+query_npy ='CIS'
+neg_control ='Ctrl_neg'
 SavedDir = home+'SavedModels/'
 log = SavedDir+"log.log"
 video_len =10000
