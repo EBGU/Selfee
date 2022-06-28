@@ -23,7 +23,15 @@ Selee is inspired by and modified from [SimSiam](https://github.com/facebookrese
 ```
 conda env create -f Selfee.yml 
 ```
+If you have problems installing pyhsmm and autoregressive, you could install manually from https://github.com/mattjj/pyhsmm and https://github.com/mattjj/pyhsmm-autoregressive
 
+Note that for pyhsmm, you need following dependency:
+
+```
+pip install -U future 
+pip install requests
+pip install pybasicbayes==0.2.2
+```
 2. Download pretrained weights from Google Drive
 
 We provide [pretrained weights](https://drive.google.com/file/d/1A3U5guNEKA3Bi9H3QnfstZDEZ6aesqcR/view?usp=sharing) on flies or mice datasets via Google Drive.
