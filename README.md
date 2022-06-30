@@ -4,7 +4,7 @@ This is the official implementation of [Selfee](https://elifesciences.org/articl
 
 **This script could NOT run on WINDOWS !!!**
 
-**Selfee is not design to work on mice with a fiberoptic cable. We recommend you another work [MARS](https://elifesciences.org/articles/63720).**
+**Selfee is not designed to work on mice with a fiberoptic cable. We recommend you another work [MARS](https://elifesciences.org/articles/63720).**
 
 <div align=center>
 <img src=./img/selfee.jpg width=40%/>
