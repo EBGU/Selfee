@@ -2,6 +2,8 @@
 
 This is the official implementation of [Selfee](https://elifesciences.org/articles/76218). In brief, Selfee is a **fully unsupervised** neural network for animal behavior analysis. **It is fast, sensitive, and unbiased.**
 
+**This script could NOT run on WINDOWS !!!**
+
 <div align=center>
 <img src=./img/selfee.jpg width=40%/>
 </div>
