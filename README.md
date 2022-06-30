@@ -1,8 +1,8 @@
 # Selfee: Self-supervised Features Extraction of animal behaviors
 
 This is the official implementation of [Selfee](https://elifesciences.org/articles/76218). In brief, Selfee is a **fully unsupervised** neural network for animal behavior analysis. **It is fast, sensitive, and unbiased.**
-
 **This script could NOT run on WINDOWS !!!**
+**Selfee is not design to work on mice with a fiberoptic cable. We recommend you another work [MARS](https://elifesciences.org/articles/63720).**
 
 <div align=center>
 <img src=./img/selfee.jpg width=40%/>
